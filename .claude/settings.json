@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -n '1801,1910p' /Users/mac/Desktop/Projects/portfolio/node_modules/@iconify/react/dist/iconify.js)",
+      "Read(//Users/mac/Library/pnpm/store/v10/links/@iconify/react/6.0.2/5036c8f00efef94f832f0743f5311694b390e0fd583c84378b6691b107bc8e59/node_modules/@iconify/react/dist/**)"
+    ]
+  }
+}
