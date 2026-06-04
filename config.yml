@@ -1,0 +1,354 @@
+locales:
+  /:
+    lang: zh-CN
+    langName: 中文
+    title: 黄俊华 | Portfolio
+    description: 黄俊华的个人作品集 — ACMer / 全栈工程师，算法竞赛 & 全栈开发。
+
+    hero:
+      name: 黄俊华
+      welcome: 👋 你好，我是
+      titles:
+        - ACMer
+        - 全栈工程师
+        - 开源爱好者
+      avatar: /avatar.avif
+      bgImage: /bg.avif
+      medias:
+        - icon: fa7-brands:github
+          name: GitHub
+          link: https://github.com/badb0ttle
+
+        - icon: fa7-solid:blog
+          name: 博客
+          link: https://blog.hjhai.xyz
+
+        - icon: fa7-solid:globe
+          name: AI 情报站
+          link: https://ai.hjhai.xyz
+
+    navbar:
+      links:
+        - label: 关于我
+          anchor: "#profile"
+        - label: 经历
+          anchor: "#experience"
+        - label: 项目
+          anchor: "#projects"
+        - label: 竞赛获奖
+          anchor: "#awards"
+        - label: 联系方式
+          anchor: "#contact"
+
+    sections:
+      - type: profile
+        id: profile
+        title: 关于我
+        icon: user-tie
+        data:
+          fields:
+            - title: 姓名
+              icon: user
+              value: 黄俊华
+
+            - title: 学校
+              icon: school
+              value: 厦门大学嘉庚学院
+
+            - title: 方向
+              icon: code
+              value:
+                - 算法竞赛 (ICPC/CCPC)
+                - 全栈开发
+                - AI 应用
+
+            - title: 技术栈
+              icon: toolbox
+              value:
+                - TypeScript / React / Vue
+                - Python / C++
+                - Node.js / Next.js
+
+          slogan: 代码即思考，竞赛即成长。
+
+      - type: experience
+        id: experience
+        title: 经历
+        icon: graduation-cap
+        data:
+          - type: project
+            place: 厦门大学
+            time: 至今
+            title: O-PIRTAS 教学创新智能体「翻转客」研发
+            content: |-
+              参与校企合作 / 校级教学创新项目，负责智能体系统的全栈开发。项目基于 O-PIRTAS 教学模式，打造面向高等教育的 AI 教学辅助平台。
+
+              官网：[opirtas.com](https://www.opirtas.com)
+
+          - type: work
+            place: 汉印电子先进打印技术创新实验室
+            time: 至今
+            title: 优秀成员
+            content: |-
+              主要负责实验室网站的**建设与维护**工作。熟悉拓竹（Bambu Lab）各型号 3D 打印机的使用与调试，参与实验室的数字化建设。
+
+          - type: volunteer
+            place: 厦门大学嘉庚学院 ACM 集训队
+            time: 至今
+            title: 骨干成员
+            content: |-
+              代表学校参与 **ICPC / CCPC** 等算法赛事并取得优异名次。同时承担**培训 24、25 级新队员**的职责，为其传授竞赛知识与实战技巧。
+
+              累计获得 ICPC 亚洲区域赛铜牌、CCPC 全国邀请赛银牌等多项荣誉。
+
+      - type: cards
+        id: projects
+        title: 项目
+        icon: book
+        data:
+          - title: 翻转客 — O-PIRTAS 教学智能体
+            logo: /opirtas-logo.png
+            description: |-
+              基于 O-PIRTAS 教学模式的 AI 教学辅助平台，面向高等教育场景的智能体系统。
+              校企合作 / 校级教学创新项目。
+            category: 全栈项目
+            actions:
+              - text: 官网
+                link: https://www.opirtas.com
+                icon: external-link
+
+          - title: AI 情报站
+            logo: /ai-intel-logo.png
+            description: |-
+              AI 领域情报聚合站点，自动抓取、筛选、发布 AI 相关资讯。
+              基于自动化 Pipeline 架构，SQLite + VuePress 驱动。
+            category: 全栈项目
+            actions:
+              - text: 访问
+                link: https://ai.hjhai.xyz
+                icon: external-link
+
+              - icon: fa7-brands:github
+
+      - type: list
+        id: awards
+        title: 竞赛获奖
+        icon: trophy
+        dot: check
+        data:
+          - "**2026** CCPC 福州全国邀请赛 **铜牌**"
+          - "**2025** CCPC 福州全国邀请赛 **银牌**"
+          - "**2025** 第 50 届 ICPC 国际大学生程序设计竞赛亚洲区域赛（香港站）**铜牌**（第 46 名）"
+          - "**2025** CCPC 郑州全国邀请赛 **铜牌**"
+          - "**2025** CCPC 东北全国邀请赛 **铜牌**"
+          - "**2025** 第十一届「中国高校计算机大赛-团体程序设计天梯赛」全国总决赛 **个人国三**"
+
+      - type: banner
+        id: contact
+        title: 联系方式
+        icon: envelope
+        data:
+          header: 欢迎交流
+          content: |-
+            对算法竞赛、全栈开发或 AI 应用感兴趣？欢迎通过以下方式联系我 👇
+          actions:
+            - label: GitHub
+              link: https://github.com/badb0ttle
+              icon: fa7-brands:github
+            - label: 博客
+              link: https://blog.hjhai.xyz
+              primary: true
+              icon: fa7-solid:blog
+
+    footer:
+      copyright: © $year 黄俊华. All rights reserved.
+      description: 用代码书写热爱。
+
+  /en/:
+    lang: en
+    langName: EN
+    title: Junhua Huang | Portfolio
+    description: Personal portfolio of Junhua Huang — ACMer & Full-Stack Engineer.
+
+    ui:
+      themeToggle: Toggle Theme
+      contacts: Contact
+      details: Details
+
+    hero:
+      name: Junhua Huang
+      welcome: 👋 Hi there, I am
+      titles:
+        - ACMer
+        - Full-Stack Engineer
+        - Open Source Enthusiast
+      avatar: /avatar.avif
+      bgImage: /bg.avif
+      medias:
+        - icon: fa7-brands:github
+          name: GitHub
+          link: https://github.com/badb0ttle
+
+        - icon: fa7-solid:blog
+          name: Blog
+          link: https://blog.hjhai.xyz
+
+        - icon: fa7-solid:globe
+          name: AI Intel
+          link: https://ai.hjhai.xyz
+
+    navbar:
+      links:
+        - label: About
+          anchor: "#profile"
+        - label: Experience
+          anchor: "#experience"
+        - label: Projects
+          anchor: "#projects"
+        - label: Awards
+          anchor: "#awards"
+        - label: Contact
+          anchor: "#contact"
+
+    sections:
+      - type: profile
+        id: profile
+        title: About Me
+        icon: user-tie
+        data:
+          fields:
+            - title: Name
+              icon: user
+              value: Junhua Huang
+
+            - title: University
+              icon: school
+              value: Xiamen University Tan Kah Kee College
+
+            - title: Focus
+              icon: code
+              value:
+                - Competitive Programming (ICPC/CCPC)
+                - Full-Stack Development
+                - AI Applications
+
+            - title: Tech Stack
+              icon: toolbox
+              value:
+                - TypeScript / React / Vue
+                - Python / C++
+                - Node.js / Next.js
+
+          slogan: Code is thinking, competition is growth.
+
+      - type: experience
+        id: experience
+        title: Experience
+        icon: graduation-cap
+        data:
+          - type: project
+            place: Xiamen University
+            time: Present
+            title: O-PIRTAS Teaching Innovation Agent "Flipped Guest"
+            content: |-
+              Participated in a university-industry collaborative teaching innovation project. Responsible for full-stack development of the AI-powered teaching assistant platform based on the O-PIRTAS teaching model.
+
+              Website: [opirtas.com](https://www.opirtas.com)
+
+          - type: work
+            place: Hanyin Advanced Printing Technology Innovation Lab
+            time: Present
+            title: Outstanding Member
+            content: |-
+              Responsible for building and maintaining the lab's official website. Proficient in operating and debugging Bambu Lab 3D printers across various models.
+
+          - type: volunteer
+            place: XMU Tan Kah Kee College ACM Training Team
+            time: Present
+            title: Core Member
+            content: |-
+              Represented the university in **ICPC / CCPC** algorithm competitions, earning multiple awards. Also responsible for training new members (Classes of 2024 & 2025) in competitive programming techniques.
+
+              Awards include ICPC Asia Regional Bronze, CCPC National Invitational Silver, and more.
+
+      - type: cards
+        id: projects
+        title: Projects
+        icon: book
+        data:
+          - title: Flipped Guest — O-PIRTAS Teaching Agent
+            logo: /opirtas-logo.png
+            description: |-
+              AI teaching assistant platform based on the O-PIRTAS model, designed for higher education.
+              University-industry collaborative project.
+            category: Full-Stack
+            actions:
+              - text: Website
+                link: https://www.opirtas.com
+                icon: external-link
+
+          - title: AI Intel Station
+            logo: /ai-intel-logo.png
+            description: |-
+              AI news aggregation site with automated scraping, filtering, and publishing pipeline.
+              Built with SQLite + VuePress.
+            category: Full-Stack
+            actions:
+              - text: Visit
+                link: https://ai.hjhai.xyz
+                icon: external-link
+
+              - icon: fa7-brands:github
+
+      - type: list
+        id: awards
+        title: Competition Awards
+        icon: trophy
+        dot: check
+        data:
+          - "**2026** CCPC Fuzhou National Invitational **Bronze Medal**"
+          - "**2025** CCPC Fuzhou National Invitational **Silver Medal**"
+          - "**2025** 50th ICPC Asia Regional (Hong Kong) **Bronze Medal** (46th Place)"
+          - "**2025** CCPC Zhengzhou National Invitational **Bronze Medal**"
+          - "**2025** CCPC Northeast National Invitational **Bronze Medal**"
+          - "**2025** 11th CCCC-GPLT National Finals **Individual National 3rd Prize**"
+
+      - type: banner
+        id: contact
+        title: Get in Touch
+        icon: envelope
+        data:
+          header: Let's Connect
+          content: |-
+            Interested in competitive programming, full-stack dev, or AI? Reach out via 👇
+          actions:
+            - label: GitHub
+              link: https://github.com/badb0ttle
+              icon: fa7-brands:github
+            - label: Blog
+              link: https://blog.hjhai.xyz
+              primary: true
+              icon: fa7-solid:blog
+
+    footer:
+      copyright: © $year Junhua Huang. All rights reserved.
+      description: Built with passion.
+
+config:
+  experienceTypes:
+    work:
+      bgClass: bg-blue-600
+      icon: briefcase
+      iconClass: text-white
+    study:
+      bgClass: bg-green-600
+      icon: graduation-cap
+      iconClass: text-white
+    volunteer:
+      bgClass: bg-amber-600
+      icon: users
+      iconClass: text-white
+    project:
+      bgClass: bg-purple-600
+      icon: rocket
+      iconClass: text-white
