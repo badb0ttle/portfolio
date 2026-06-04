@@ -65,10 +65,10 @@ locales:
             - title: 技术栈
               icon: toolbox
               value:
-                - TypeScript / React / Vue
-                - Python / C++
-                - Node.js / Next.js
-
+                     - Vue 3 / TypeScript / Vite / Naive UI / Tailwind CSS / Chart.js
+                     - C++ / Java / Python / SQL
+                     - Spring Boot / Flask / MyBatis / MyBatis-Plus / MySQL / Redis
+                     - RAG / Prompt Engineering / Agent 工作流 / MCP / LLM 应用开发
           contacts:
             - label: 邮箱
               icon: envelope
@@ -87,7 +87,7 @@ locales:
               icon: fa7-brands:weixin
               value: blnk147258
 
-          slogan: 代码即思考，竞赛即成长。
+          slogan: Alea iacta est!
 
       - type: experience
         id: experience
@@ -98,6 +98,7 @@ locales:
             place: 厦门大学
             time: 至今
             title: O-PIRTAS 教学创新智能体「翻转客」研发
+            icon: lightbulb
             content: |-
               参与校企合作 / 校级教学创新项目，负责智能体系统的全栈开发。项目基于 O-PIRTAS 教学模式，打造面向高等教育的 AI 教学辅助平台。
 
@@ -107,6 +108,7 @@ locales:
             place: 汉印电子先进打印技术创新实验室
             time: 至今
             title: 优秀成员
+            icon: print
             content: |-
               主要负责实验室网站的**建设与维护**工作。熟悉拓竹（Bambu Lab）各型号 3D 打印机的使用与调试，参与实验室的数字化建设。
 
@@ -114,6 +116,7 @@ locales:
             place: 厦门大学嘉庚学院 ACM 集训队
             time: 至今
             title: 骨干成员
+            icon: trophy
             content: |-
               代表学校参与 **ICPC / CCPC** 等算法赛事并取得优异名次。同时承担**培训 24、25 级新队员**的职责，为其传授竞赛知识与实战技巧。
 
@@ -184,7 +187,7 @@ locales:
 
     footer:
       copyright: © $year 黄俊华. All rights reserved.
-      description: 用代码书写热爱。
+      description: nothing can disappoint you.
 
   /en/:
     lang: en
@@ -290,6 +293,7 @@ locales:
             place: Xiamen University
             time: Present
             title: O-PIRTAS Teaching Innovation Agent "Flipped Guest"
+            icon: lightbulb
             content: |-
               Participated in a university-industry collaborative teaching innovation project. Responsible for full-stack development of the AI-powered teaching assistant platform based on the O-PIRTAS teaching model.
 
@@ -299,6 +303,7 @@ locales:
             place: Hanyin Advanced Printing Technology Innovation Lab
             time: Present
             title: Outstanding Member
+            icon: print
             content: |-
               Responsible for building and maintaining the lab's official website. Proficient in operating and debugging Bambu Lab 3D printers across various models.
 
@@ -306,6 +311,7 @@ locales:
             place: XMU Tan Kah Kee College ACM Training Team
             time: Present
             title: Core Member
+            icon: trophy
             content: |-
               Represented the university in **ICPC / CCPC** algorithm competitions, earning multiple awards. Also responsible for training new members (Classes of 2024 & 2025) in competitive programming techniques.
 
