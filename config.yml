@@ -37,6 +37,8 @@ locales:
           anchor: "#projects"
         - label: 竞赛获奖
           anchor: "#awards"
+        - label: 爱好
+          anchor: "#hobbies"
         - label: 联系方式
           anchor: "#contact"
 
@@ -65,10 +67,11 @@ locales:
             - title: 技术栈
               icon: toolbox
               value:
-                     - Vue 3 / TypeScript / Vite / Naive UI / Tailwind CSS / Chart.js
-                     - C++ / Java / Python / SQL
-                     - Spring Boot / Flask / MyBatis / MyBatis-Plus / MySQL / Redis
-                     - RAG / Prompt Engineering / Agent 工作流 / MCP / LLM 应用开发
+                - Vue 3 / TypeScript / Vite / Naive UI / Tailwind CSS / Chart.js
+                - C++ / Java / Python / SQL
+                - Spring Boot / Flask / MyBatis / MyBatis-Plus / MySQL / Redis
+                - RAG / Prompt Engineering / Agent 工作流 / MCP / LLM 应用开发
+
           contacts:
             - label: 邮箱
               icon: envelope
@@ -98,7 +101,7 @@ locales:
             place: 厦门大学
             time: 至今
             title: O-PIRTAS 教学创新智能体「翻转客」研发
-            icon: lightbulb
+            icon: fa7-solid:lightbulb
             content: |-
               参与校企合作 / 校级教学创新项目，负责智能体系统的全栈开发。项目基于 O-PIRTAS 教学模式，打造面向高等教育的 AI 教学辅助平台。
 
@@ -108,7 +111,7 @@ locales:
             place: 汉印电子先进打印技术创新实验室
             time: 至今
             title: 优秀成员
-            icon: print
+            icon: fa7-solid:print
             content: |-
               主要负责实验室网站的**建设与维护**工作。熟悉拓竹（Bambu Lab）各型号 3D 打印机的使用与调试，参与实验室的数字化建设。
 
@@ -116,7 +119,7 @@ locales:
             place: 厦门大学嘉庚学院 ACM 集训队
             time: 至今
             title: 骨干成员
-            icon: trophy
+            icon: fa7-solid:trophy
             content: |-
               代表学校参与 **ICPC / CCPC** 等算法赛事并取得优异名次。同时承担**培训 24、25 级新队员**的职责，为其传授竞赛知识与实战技巧。
 
@@ -165,6 +168,41 @@ locales:
           - "**2025** CCPC 郑州全国邀请赛 **铜牌**"
           - "**2025** CCPC 东北全国邀请赛 **铜牌**"
           - "**2025** 第十一届「中国高校计算机大赛-团体程序设计天梯赛」全国总决赛 **个人国三**"
+
+      - type: experience
+        id: hobbies
+        title: 爱好
+        icon: heart
+        data:
+          - type: hobby
+            place: 音乐
+            icon: fa7-solid:music
+            title: 音乐
+            content: 古典与后摇爱好者，代码与旋律的共鸣。
+
+          - type: hobby
+            place: 3D 打印
+            icon: fa7-solid:cube
+            title: 3D 打印
+            content: 熟悉拓竹全系机型，从建模到成品的造物乐趣。
+
+          - type: hobby
+            place: 游戏
+            icon: fa7-solid:gamepad
+            title: 游戏
+            content: 策略与竞技类玩家，享受博弈与协作的快感。
+
+          - type: hobby
+            place: 小说
+            icon: fa7-solid:book-open
+            title: 小说
+            content: 科幻与奇幻文学重度读者，文字构建的无限世界。
+
+          - type: hobby
+            place: 算法
+            icon: fa7-solid:laptop-code
+            title: 算法
+            content: 不止于竞赛，算法是思维的体操与日常的修行。
 
       - type: banner
         id: contact
@@ -232,6 +270,8 @@ locales:
           anchor: "#projects"
         - label: Awards
           anchor: "#awards"
+        - label: Hobbies
+          anchor: "#hobbies"
         - label: Contact
           anchor: "#contact"
 
@@ -260,9 +300,10 @@ locales:
             - title: Tech Stack
               icon: toolbox
               value:
-                - TypeScript / React / Vue
-                - Python / C++
-                - Node.js / Next.js
+                - Vue 3 / TypeScript / Vite / Naive UI / Tailwind CSS / Chart.js
+                - C++ / Java / Python / SQL
+                - Spring Boot / Flask / MyBatis / MyBatis-Plus / MySQL / Redis
+                - RAG / Prompt Engineering / Agent Workflow / MCP / LLM Apps
 
           contacts:
             - label: Email
@@ -282,7 +323,7 @@ locales:
               icon: fa7-brands:weixin
               value: blnk147258
 
-          slogan: Code is thinking, competition is growth.
+          slogan: Alea iacta est!
 
       - type: experience
         id: experience
@@ -293,7 +334,7 @@ locales:
             place: Xiamen University
             time: Present
             title: O-PIRTAS Teaching Innovation Agent "Flipped Guest"
-            icon: lightbulb
+            icon: fa7-solid:lightbulb
             content: |-
               Participated in a university-industry collaborative teaching innovation project. Responsible for full-stack development of the AI-powered teaching assistant platform based on the O-PIRTAS teaching model.
 
@@ -303,7 +344,7 @@ locales:
             place: Hanyin Advanced Printing Technology Innovation Lab
             time: Present
             title: Outstanding Member
-            icon: print
+            icon: fa7-solid:print
             content: |-
               Responsible for building and maintaining the lab's official website. Proficient in operating and debugging Bambu Lab 3D printers across various models.
 
@@ -311,7 +352,7 @@ locales:
             place: XMU Tan Kah Kee College ACM Training Team
             time: Present
             title: Core Member
-            icon: trophy
+            icon: fa7-solid:trophy
             content: |-
               Represented the university in **ICPC / CCPC** algorithm competitions, earning multiple awards. Also responsible for training new members (Classes of 2024 & 2025) in competitive programming techniques.
 
@@ -361,6 +402,41 @@ locales:
           - "**2025** CCPC Northeast National Invitational **Bronze Medal**"
           - "**2025** 11th CCCC-GPLT National Finals **Individual National 3rd Prize**"
 
+      - type: experience
+        id: hobbies
+        title: Hobbies
+        icon: heart
+        data:
+          - type: hobby
+            place: Music
+            icon: fa7-solid:music
+            title: Music
+            content: Classical & post-rock enthusiast. Code meets melody.
+
+          - type: hobby
+            place: 3D Printing
+            icon: fa7-solid:cube
+            title: 3D Printing
+            content: Proficient with Bambu Lab printers. The joy of creation from model to object.
+
+          - type: hobby
+            place: Gaming
+            icon: fa7-solid:gamepad
+            title: Gaming
+            content: Strategy & competitive games. Thriving on tactics and teamwork.
+
+          - type: hobby
+            place: Novels
+            icon: fa7-solid:book-open
+            title: Novels
+            content: Avid sci-fi & fantasy reader. Infinite worlds built with words.
+
+          - type: hobby
+            place: Algorithms
+            icon: fa7-solid:laptop-code
+            title: Algorithms
+            content: Beyond competition — algorithmic thinking as daily practice.
+
       - type: banner
         id: contact
         title: Get in Touch
@@ -382,7 +458,7 @@ locales:
 
     footer:
       copyright: © $year Junhua Huang. All rights reserved.
-      description: Built with passion.
+      description: nothing can disappoint you.
 
 config:
   experienceTypes:
@@ -401,4 +477,8 @@ config:
     project:
       bgClass: bg-purple-600
       icon: rocket
+      iconClass: text-white
+    hobby:
+      bgClass: bg-rose-500
+      icon: heart
       iconClass: text-white
