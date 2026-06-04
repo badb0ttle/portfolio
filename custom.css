@@ -1,0 +1,159 @@
+/* ══════════════════════════════════════════════
+   Portfolio Custom Styles
+   Design: Monochrome + Blue Accent, Motion-Driven
+   ══════════════════════════════════════════════ */
+
+/* ——— Accent Color Override ——— */
+:root {
+  --primary-base: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-ring: rgba(37, 99, 235, 0.35);
+}
+
+/* ——— Typography Polish ——— */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ——— Hero Section ——— */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(15, 23, 42, 0.6) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* ——— Avatar ——— */
+.hero-avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.15), 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hero-avatar:hover {
+  transform: scale(1.05);
+}
+
+/* ——— Section Subtle Entrance ——— */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-wrapper {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+/* ——— Card Hover ——— */
+.cards-grid .card-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards-grid .card-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.dark .cards-grid .card-item:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* ——— Timeline Polish ——— */
+.timeline-dot {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover .timeline-dot {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.2);
+}
+
+/* ——— Project Logo ——— */
+.card-logo {
+  transition: transform 0.4s ease;
+}
+
+.card-item:hover .card-logo {
+  transform: scale(1.05);
+}
+
+/* ——— Competition List Checkmarks ——— */
+.list-check-item::before {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* ——— Banner CTA ——— */
+.banner-actions .primary-btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.banner-actions .primary-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.4);
+}
+
+/* ——— Contact Icons ——— */
+.contact-icon {
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.contact-icon:hover {
+  transform: translateY(-2px);
+}
+
+/* ——— Navbar ——— */
+.navbar {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ——— Reduced Motion ——— */
+@media (prefers-reduced-motion: reduce) {
+  .section-wrapper,
+  .hero-avatar,
+  .card-item,
+  .card-logo,
+  .timeline-dot,
+  .banner-actions .primary-btn,
+  .contact-icon {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* ——— Responsive Fine-Tuning ——— */
+@media (max-width: 640px) {
+  .hero-avatar {
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12), 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* ——— Footer ——— */
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.dark .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}

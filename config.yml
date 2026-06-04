@@ -12,7 +12,7 @@ locales:
         - ACMer
         - 全栈工程师
         - 开源爱好者
-      avatar: /avatar.avif
+      avatar: /gogo.gif
       bgImage: /bg.avif
       medias:
         - icon: fa7-brands:github
@@ -69,6 +69,24 @@ locales:
                 - Python / C++
                 - Node.js / Next.js
 
+          contacts:
+            - label: 邮箱
+              icon: envelope
+              value: gebaodi@gmail.com
+
+            - label: Telegram
+              icon: fa7-brands:telegram
+              value: "@badb0ttle"
+              link: https://t.me/badb0ttle
+
+            - label: QQ
+              icon: fa7-brands:qq
+              value: "2546744220"
+
+            - label: 微信
+              icon: fa7-brands:weixin
+              value: blnk147258
+
           slogan: 代码即思考，竞赛即成长。
 
       - type: experience
@@ -118,7 +136,7 @@ locales:
                 icon: external-link
 
           - title: AI 情报站
-            logo: /ai-intel-logo.png
+            logo: /icon.svg
             description: |-
               AI 领域情报聚合站点，自动抓取、筛选、发布 AI 相关资讯。
               基于自动化 Pipeline 架构，SQLite + VuePress 驱动。
@@ -128,7 +146,9 @@ locales:
                 link: https://ai.hjhai.xyz
                 icon: external-link
 
-              - icon: fa7-brands:github
+              - text: GitHub
+                link: https://github.com/badb0ttle/fine-grained
+                icon: fa7-brands:github
 
       - type: list
         id: awards
@@ -155,10 +175,12 @@ locales:
             - label: GitHub
               link: https://github.com/badb0ttle
               icon: fa7-brands:github
-            - label: 博客
-              link: https://blog.hjhai.xyz
-              primary: true
-              icon: fa7-solid:blog
+            - label: Email
+              link: mailto:gebaodi@gmail.com
+              icon: envelope
+            - label: Telegram
+              link: https://t.me/badb0ttle
+              icon: fa7-brands:telegram
 
     footer:
       copyright: © $year 黄俊华. All rights reserved.
@@ -182,7 +204,7 @@ locales:
         - ACMer
         - Full-Stack Engineer
         - Open Source Enthusiast
-      avatar: /avatar.avif
+      avatar: /gogo.gif
       bgImage: /bg.avif
       medias:
         - icon: fa7-brands:github
@@ -239,6 +261,24 @@ locales:
                 - Python / C++
                 - Node.js / Next.js
 
+          contacts:
+            - label: Email
+              icon: envelope
+              value: gebaodi@gmail.com
+
+            - label: Telegram
+              icon: fa7-brands:telegram
+              value: "@badb0ttle"
+              link: https://t.me/badb0ttle
+
+            - label: QQ
+              icon: fa7-brands:qq
+              value: "2546744220"
+
+            - label: WeChat
+              icon: fa7-brands:weixin
+              value: blnk147258
+
           slogan: Code is thinking, competition is growth.
 
       - type: experience
@@ -288,7 +328,7 @@ locales:
                 icon: external-link
 
           - title: AI Intel Station
-            logo: /ai-intel-logo.png
+            logo: /icon.svg
             description: |-
               AI news aggregation site with automated scraping, filtering, and publishing pipeline.
               Built with SQLite + VuePress.
@@ -298,7 +338,9 @@ locales:
                 link: https://ai.hjhai.xyz
                 icon: external-link
 
-              - icon: fa7-brands:github
+              - text: GitHub
+                link: https://github.com/badb0ttle/fine-grained
+                icon: fa7-brands:github
 
       - type: list
         id: awards
@@ -325,10 +367,12 @@ locales:
             - label: GitHub
               link: https://github.com/badb0ttle
               icon: fa7-brands:github
-            - label: Blog
-              link: https://blog.hjhai.xyz
-              primary: true
-              icon: fa7-solid:blog
+            - label: Email
+              link: mailto:gebaodi@gmail.com
+              icon: envelope
+            - label: Telegram
+              link: https://t.me/badb0ttle
+              icon: fa7-brands:telegram
 
     footer:
       copyright: © $year Junhua Huang. All rights reserved.
